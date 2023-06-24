@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Image Gallery with Bootstrap</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        .download-button {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 10px;
+        }
+
+        .download-button a {
+            display: inline-block;
+            padding: 6px 12px;
+            background-color: #4CAF50;
+            color: white;
+            text-decoration: none;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="mt-4">Image Gallery with Bootstrap</h1>
+
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="https://www.kali.org/images/iso-64-installer.svg" alt="Image 1" class="card-img-top">
+                    <div class="card-body">
+                       <h5 class="card-title">Kali Installer</h5>
+                        <div class="download-button">
+                            <a href="https://cdimage.kali.org/kali-2023.2/kali-linux-2023.2a-installer-amd64.iso" download>Download</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="https://www.kali.org/images/iso-64-everything.svg" alt="Image 2" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Kali Everything</h5>
+                        <div class="download-button">
+                            <a href="https://cdimage.kali.org/kali-2023.2/kali-linux-2023.2a-installer-everything-amd64.iso.torrent" download>Download</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="https://www.kali.org/images/download-logo-virtualbox-64.svg" alt="Image 3" class="card-img-top">
+                    <div class="card-body">
+                       <h5 class="card-title">Kali Prebuilt VM</h5>
+                        <div class="download-button">
+                            <a href="https://cdimage.kali.org/kali-2023.2/kali-linux-2023.2-virtualbox-amd64.7z" download>Download</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="https://cdnblog.filecloud.com/blog/wp-content/uploads/2016/06/windows-server-20161.png" alt="Image 4" class="card-img-top">
+                    <div class="card-body">
+                       <h5 class="card-title">Windows Server 2016</h5>
+                        <div class="download-button">
+                            <a href="https://software-download.microsoft.com/download/pr/Windows_Server_2016_Datacenter_EVAL_en-us_14393_refresh.ISO" download>Download</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Add more columns for additional images -->
+        </div>
+    </div>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
